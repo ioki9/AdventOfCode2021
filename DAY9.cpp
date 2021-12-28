@@ -193,7 +193,7 @@ void solveDAY9()
 	std::string line{};
 	std::ifstream myTxt;
 	std::vector<std::string> matrix{};
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	auto start = std::chrono::high_resolution_clock::now();
 	if (myTxt.is_open())
 	{

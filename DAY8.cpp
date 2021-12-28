@@ -47,7 +47,7 @@ void solveDAY8()
 	std::vector < std::string > patterns{};
 	std::vector<std::string> solvedPatterns(10, "");
 	long long sum{ 0 };
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	if (myTxt.is_open())
 	{
 

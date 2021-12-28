@@ -79,7 +79,7 @@ void solveDAY13()
 	std::ifstream myTxt;
 	std::vector<coord> dots{};
 	std::vector<coord> folds{};
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");	
 	if (myTxt.is_open())
 	{
 		myTxt.clear();

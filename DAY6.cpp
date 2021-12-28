@@ -12,7 +12,7 @@ void solveDAY6()
 	std::string line{};
 	std::ifstream myTxt;
 	std::vector<long long> fishVec(9, 0);
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	if (myTxt.is_open())
 	{
 		//getting fishes

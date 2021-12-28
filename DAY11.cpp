@@ -18,7 +18,7 @@ void solveDAY11()
 	std::array<std::array<int, 10>, 10> octoMatrix{};
 	std::deque <std::pair<size_t, size_t>> bombDeque{};
 	long long flashes{ 0 };
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	if (myTxt.is_open())
 	{
 		myTxt.clear();

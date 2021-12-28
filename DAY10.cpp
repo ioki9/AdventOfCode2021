@@ -15,7 +15,7 @@ void solveDAY10()
 	std::string line{};
 	std::ifstream myTxt;
 
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	long sum{ 0 };
 	short curly_count{ 0 };
 	short square_count{ 0 };

@@ -26,7 +26,7 @@ void solveDAY12()
 	int path_count{ 0 };
 	std::map < std::string, std::vector<std::string>> map{};
 	std::queue<Route> route_queue{};
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	if (myTxt.is_open())
 	{
 		myTxt.clear();

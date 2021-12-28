@@ -87,7 +87,7 @@ void solveDAY4()
 {
 	std::string line{};
 	std::ifstream myTxt;
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	std::vector < std::string> numbersToCheck{};
 	size_t maxValId{ 0 };
 	size_t minSumPos{ 0 };

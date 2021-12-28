@@ -26,7 +26,7 @@ void solveDAY7()
 	std::vector<int> values;
 	int max_val{};
 	int min_val{};
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	if (myTxt.is_open())
 	{
 		//getting fishes
@@ -57,7 +57,7 @@ void solveDAY7()
 		}
 		int sum1{};
 		int minSum{ INT_MAX };
-		for (size_t j{ 0 }; j < max_val; ++j)
+		for (int j{ 0 }; j < max_val; ++j)
 		{
 			sum1 = getAbsSum(j, values);
 			if (sum1 < minSum)

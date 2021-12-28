@@ -20,7 +20,7 @@ void solveDAY5()
 	std::vector<points> pointsVec{};
 	int max_x{ 0 };
 	int max_y{ 0 };
-	myTxt.open("D:\\VC_projects\\AdventOfCode\\input.txt");
+	myTxt.open("input.txt");
 	if (myTxt.is_open())
 	{
 		//getting the points
